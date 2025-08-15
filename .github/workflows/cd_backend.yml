@@ -27,3 +27,5 @@ jobs:
           file: ./docker/Dockerfile.backend
           push: true
           tags: sushaant04/monorepo-deploy-backend:${{ github.sha }}
+
+        #   Step to deploy this to a VM
