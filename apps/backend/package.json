@@ -1,0 +1,25 @@
+{
+  "name": "http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "bun index.ts",
+    "dev": "bun run build && bun run start"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+    "@repo/db": "workspace:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}
